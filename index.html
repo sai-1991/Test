@@ -133,7 +133,7 @@
       });
 
       const result = await response.json();
-      document.getElementById("responseBox").textContent = JSON.stringify(result, null, 2);
+      document.getElementById("responseBox").textContent = <pre>JSON.stringify(result, null, 2)</pre>;
     }
   </script>
 <footer>
