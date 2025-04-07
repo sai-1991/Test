@@ -120,7 +120,7 @@
     async function sendMessage() {
       const message = document.getElementById("userMessage").value;
 
-      const response = await fetch("https://n8n-n4xs.onrender.com/webhook-test/ai", {
+      const response = await fetch("https://n8n-n4xs.onrender.com/webhook/ai", {
         method: "POST",
         mode: "no-cors",
         headers: {
