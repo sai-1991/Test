@@ -113,7 +113,7 @@
   <script>
   function sendWebhook() {
     fetch('https://n8n-t8l2.onrender.com/webhook-test/97b076b3-75ae-42eb-8ee0-079ead8ee294', {
-      method: 'POST',
+      method: 'GET',
       mode: "no-cors",
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ event: 'button_click' })
