@@ -94,37 +94,18 @@
       <p>Created a smart chatbot using ChatGPT API and deployed it as a Telegram bot.</p>
     </div>
 
-    <div class="project">
-      <h3>n8n Workflow Automation</h3>
-      <p>Built no-code automation workflows for RSS-to-WhatsApp alerts using n8n.</p>
-    </div>
+   
   </div>
 
   <div class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-    <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+    <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>   
   </div>
 </section>
 <script> window.chtlConfig = { chatbotId: "6494748472" } </script>
 <script async data-id="6494748472" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
 
-  <script>
-  function sendWebhook() {
-    fetch('https://n8n-t8l2.onrender.com/webhook-test/97b076b3-75ae-42eb-8ee0-079ead8ee294', {
-      method: 'GET',
-      mode: "no-cors",
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ event: 'button_click' })
-    })
-    .then(res => res.json())
-    .then(data => console.log('Sent to n8n:', data))
-    .catch(err => console.error(err));
-  }
-</script>
-
-<button onclick="sendWebhook()">Trigger n8n Webhook</button>
+  
 <footer>
   © 2025 Your Name. All rights reserved.
 </footer>
